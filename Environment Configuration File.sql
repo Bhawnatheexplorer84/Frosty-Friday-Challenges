@@ -16,3 +16,11 @@ COMMENT = 'Frosty Friday Challenges Tables and Views';
 // Creating a Schema
 CREATE SCHEMA FrostyCHALLENG
 COMMENT = 'Schema for Frosty Friday Challenges';
+
+At the end,lets use the below code to start with the challenges:
+ // Environment Configuration
+USE DATABASE Frosty_DB;
+USE WAREHOUSE COMPUTE_WH;
+
+Note:SNOWFLAKE_WH as created above can be used as well.Don't confuse with compute_wh which is the default warehouse Snowflake provides.
+USE SCHEMA FrostyCHALLENG;
